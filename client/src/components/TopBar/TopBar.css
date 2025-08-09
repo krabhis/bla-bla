@@ -50,3 +50,25 @@
 .dropdown button:hover {
   cursor: pointer;
 }
+
+.dropdown button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin: 4px 0;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown button:hover {
+  background-color: #f5f5f5;
+}
+
+.profile-btn {
+  color: #2d7ff9;
+  font-weight: 500;
+}

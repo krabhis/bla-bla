@@ -35,6 +35,7 @@ export default function TopBar() {
         />
         {dropdownOpen && (
           <div className="dropdown">
+            <button className="profile-btn" onClick={() => window.location.href = '/profile'}>Profile</button>
             <button onClick={handleLogout}>Logout</button>
           </div>
         )}

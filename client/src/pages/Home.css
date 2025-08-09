@@ -1,0 +1,11 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.home-main {
+  flex: 1;
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 20px;
+}
