@@ -14,8 +14,8 @@ export default function Sidebar() {
     <div className="sidebar">
       <nav className="sidebar-nav">
         <ul>
-          <li><a href="#" className="active">Home</a></li>
-          <li><a href="#">Profile</a></li>
+          <li><a href="/" className="active">Home</a></li>
+          <li><a href="/profile">Profile</a></li>
           <li><a href="#">Saved</a></li>
           <li><a href="#">Following</a></li>
         </ul>

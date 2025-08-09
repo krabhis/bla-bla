@@ -1,0 +1,48 @@
+.profile-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.profile-main {
+  flex: 1;
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 20px;
+}
+
+.profile-tabs {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 16px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8e8e8e;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.tab-btn:hover {
+  color: #262626;
+}
+
+.tab-btn.active {
+  color: #262626;
+  border-bottom: 2px solid #262626;
+}
+
+.tab-content {
+  padding: 20px;
+}
