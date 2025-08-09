@@ -1,10 +1,13 @@
 import React from 'react'
+import TopBar from '../components/TopBar/TopBar'
+import SideBar from '../components/Sidebar/Sidebar'
 
 function Home() {
   return (
-     <div className="flex justify-center items-center h-screen text-2xl font-semibold">
-      Welcome to the Home Page...
-    </div>
+     <>
+     <TopBar />
+     <SideBar/>
+     </>
   )
 }
 
