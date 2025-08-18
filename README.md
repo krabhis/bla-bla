@@ -1,13 +1,17 @@
-A social media platform to implement following features:
+# 🌐 Social Media Platform
 
-Context based authentication: User and Admin have different dashboards for smooth working.
+A social media platform to implement the following features:
 
-Post restrictions and community guidelines: Agressive and posts crossing guidelines will be restricted or terminated by admin by manual review.
+- **Context based authentication**: User and Admin have different dashboards for smooth working.  
+- **Post restrictions and community guidelines**: Aggressive and posts crossing guidelines will be restricted or terminated by admin by manual review.  
+- **Community features**: Can create groups and communities to share and collaborate in a group.  
 
-Community features: Can create groups and communities to share and collaborate in a group.
+---
 
-The tech stack includes use of : React, JavaScript, CSS, MongoDB,Node
+## 👨‍💻 Contributors
+Made by **Abhishek Kumar** and **Aimad Sarwar**  
 
-Made by Abhishek Kumar and Aimad Sarwar.. 
+---
 
-Setup giude to follow soon...
+## ⚡ Setup Guide
+Setup guide to follow soon...
