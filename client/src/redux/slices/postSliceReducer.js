@@ -1,10 +1,5 @@
-
-
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-
-
-
 
 const getErrorMessage = (err) => {
   if (!err) return 'Unknown error';

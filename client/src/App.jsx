@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { Toaster } from "react-hot-toast";
-// import store from "./Redux/store.js";
+import store from "./Redux/store.js";
 import './App.css'
 import Login from './pages/Login'
 import Signup from "./pages/Signup";
